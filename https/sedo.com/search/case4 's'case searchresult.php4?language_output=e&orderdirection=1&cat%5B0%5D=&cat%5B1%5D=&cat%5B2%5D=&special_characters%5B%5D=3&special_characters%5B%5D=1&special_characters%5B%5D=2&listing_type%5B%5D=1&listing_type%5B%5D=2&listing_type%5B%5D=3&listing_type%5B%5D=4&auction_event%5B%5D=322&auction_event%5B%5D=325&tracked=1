@@ -1,0 +1,17 @@
+case 's'
+player2.position = networkPOwerSourced.putinService.Read VOrtex1.txt
+break ;
+case 'z'
+player1.position = network.clientPacketReader.reaad vortex.txt
+if (network.networkgamesession ! = null )
+{
+     if (gamer.IsLocal)
+     {
+           //Local Gamers always use the Main KeyboardKeys. HandleInput(adminINdex.ONe);
+           UpdateSatellite(COSMICTIME) ; 
+           ALwaysUpdateNetworkDAta();
+        }
+  }\
+  else
+  -.....888888888989 db.txt
+  
