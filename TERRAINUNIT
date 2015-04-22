@@ -1,0 +1,19 @@
+Entfor (var i = 0; i < rows * width; i++) 
+ 47 +			{ 
+ 48 +				var index = i; 
+ 49 +				var anim = new Animation(init.World, image); 
+ 50 +				var cellOffset = new CVec(i % width, i / width + bibOffset); 
+ 51 +				var cell = location + cellOffset; 
+ 52 + 
+ 53 +				// Some mods may define terrain-specific bibs 
+ 54 +				var terrain = map.GetTerrainInfo(cell).Type; 
+ 55 +				var testSequence = Sequence + "-" + terrain; 
+ 56 +				var sequence = anim.HasSequence(testSequence) ? testSequence : Sequence; 
+ 57 +				anim.PlayFetchIndex(sequence, () => index); 
+ 58 +				anim.IsDecoration = true; 
+ 59 + 
+ 60 +				// Z-order is one set to the top of the footpri 
+er file contents here
+//enemy class
+protected void setAnimation(internet animationID),
+SPOOL reset=char set,bool enable loop top,bool waitfinish
